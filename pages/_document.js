@@ -11,20 +11,22 @@ class MyDocument extends Document {
     }
     
     render() {
-        return <Html>
-            <Head>
-                <style jsx>
-                {`
-                    .test { color: red }
-                `}
-                </style>
-                <body>
-                    <div className="test">xxxx</div>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Head>
-        </Html>
+        return (
+            <Html>
+                <Head>
+                    <style jsx>
+                    {`
+                        .test { color: red }
+                    `}
+                    </style>
+                    <body>
+                        <div className="test">xxxx</div>
+                        <Main />
+                        <NextScript />
+                    </body>
+                </Head>
+            </Html>
+        )
     }
 }
 export default MyDocument

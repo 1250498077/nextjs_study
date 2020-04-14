@@ -4,9 +4,8 @@ import { Button } from 'antd'
 export default ({ children }) => (
     <>
         <div>
-            Hello world
-            <p className="Button1">scoped!</p>
-           
+            
+            <Button>确定</Button>
             <style jsx>{`
                 p {
                   color: blue;
